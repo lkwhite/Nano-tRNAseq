@@ -17,9 +17,16 @@ which are otherwise discarded when using default MinKNOW settings.
 ## Setting up alternative MinKNOW configurations
 To enable those, simply rsync conf files (root priviledges needed):
 
+On Linux:
 ```bash
 rsync -a conf/package/flow_cells.toml /opt/ont/minknow/conf/package
 rsync -a conf/package/sequencing/*.toml /opt/ont/minknow/conf/package/sequencing
+```
+
+On MacOS:
+```bash
+rsync -a conf/package/flow_cells.toml /Applications/MinKNOW.app/Contents/Resources/conf/package
+rsync -a conf/package/sequencing/*.toml /Applications/MinKNOW.app/Contents/Resources/conf/package/sequencing
 ```
 
 After, reloading scripts in MinKNOW
