@@ -62,4 +62,5 @@ connector = "promethion"
 connector = "flongle"
 [FLO-MIN106_short]
 connector = "minion_mk1"
-
+[FLO-PRO002_short]
+connector = "promethion"
