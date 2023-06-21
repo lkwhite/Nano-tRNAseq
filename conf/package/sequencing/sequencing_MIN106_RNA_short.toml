@@ -21,7 +21,7 @@ package = "bream4"
 experiment_type = "rna"
 
 [compatibility]
-minknow_core = "5.0"
+minknow_core = "5.5"
 bream = "7.0.0"
 
 
