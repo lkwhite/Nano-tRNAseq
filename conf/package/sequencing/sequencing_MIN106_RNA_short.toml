@@ -7,7 +7,7 @@ exp_script_purpose = "sequencing_run"
 
 [meta.protocol]
 experiment_type = "sequencing"
-flow_cells = ["FLO-MIN106_short", "FLO-FLG001_short"]
+flow_cells = ["FLO-MIN106_short", "FLO-FLG001_short", "FLO-PRO002_short"]
 kits = ["SQK-RNA002"]
 
 default_basecall_model = "rna_r9.4.1_70bps_hac.cfg"
